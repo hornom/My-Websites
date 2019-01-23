@@ -1,0 +1,76 @@
+#container  {
+    background-color: #910002;
+    background-image: linear-gradient(#fd0000, #910002);
+    height:          100vh;
+    width:           100vw;
+    min-height:      99.99vh;
+    max-height:      100vh;
+    min-width:       99.99vw;
+    max-width:       100vw;
+    overflow-x:      hidden;
+}
+*           {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1          {
+    font-family: 'Rock Salt', cursive;
+}
+/*Content 1*/
+
+/*Content 2*/
+
+/*Content 3*/
+
+/* SIDE BAR CONTENT */
+#logo       {
+    /* margin: 12.5%  12.5%; */
+    height: auto;
+    width: 33vh;
+    position: absolute;
+    left: 15vw;
+    transform: translate(-50%,0%);
+}
+#side       {
+    min-width:29.99%;
+    max-width:30%;
+    min-height:99.99%;
+    max-height:100%;
+    overflow:hidden;
+}
+        /*Buttons*/
+button      {
+    background-color:   transparent;
+    border-bottom-color:transparent;
+    border-top-color:   transparent;
+    border-left-color:  transparent;
+    border-right-color: transparent;
+    width:              30vw;
+    height:             22vh;
+    cursor:             pointer;
+}
+button:hover{
+    font-weight:bold;
+    border-bottom-color: white;
+    border-bottom-width:3px;
+    border-bottom-style:outset;
+}
+button:focus
+{
+    outline:0;
+    border-bottom-color: white;
+    border-bottom-width:3px;
+    border-bottom-style:inset;
+}
+#pai       {
+    
+}
+#shifu     {
+    background-color:   black;
+    color:            #e40001;
+    
+}
+#opt3       {
+   color: white; 
+}
