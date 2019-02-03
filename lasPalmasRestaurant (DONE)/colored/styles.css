@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #container
-{   overflow:hidden;
+{   overflow-y:hidden;
     min-width: 100%;
     min-height: 99.99%;
     max-width: 100%;
@@ -86,7 +86,7 @@ h1{
 
             /*STYLES FOR THE SLIDE IN CONTENT*/
 #content {
-    overflow:hidden;
+    overflow-y:hidden;
      border-right-color: #F5F5F5;
     border-right-width: 15px;
     border-right-style: solid;
@@ -103,19 +103,20 @@ h1{
 
 #caterMenu
 {
-    overflow:hidden;
+    overflow-y:hidden;
     cursor: pointer;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 98vh;
+    max-height:  98vh;
+    min-height: 97vh;
     width: auto;
    
 }
 
 #takeOutMenu
 {
-    overflow:hidden;
+    overflow-y:hidden;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -125,7 +126,8 @@ h1{
 
         /*Styles for everything inside the "about us" element*/
 #acontent {
-    overflow:hidden;
+    overflow-x: hidden;
+    overflow-y:scroll;
     border-left-color: #F5F5F5;
     border-left-width: 15px;
     border-left-style: solid;
