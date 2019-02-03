@@ -56,7 +56,11 @@ h1{
 
 #takeOut{
     z-index: 0;
-       background-image: url(images/cater.png)
+       background-image: url(images/cater.png);
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
    
 }
 
@@ -64,12 +68,20 @@ h1{
     z-index: 0;
      left: 25%;
       background-image: url(images/takeOut.png);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #about{
     z-index: -1;
     left: 50%;
-    background-image: url(images/about.png)
+    background-image: url(images/about.png);
+        -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
             /*STYLES FOR THE SLIDE IN CONTENT*/
