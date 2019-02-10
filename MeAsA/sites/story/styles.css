@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    z-index: 0;
+    margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../../images/alt-fleur.jpg);
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+nav {
+    text-align: center;
+}
+a:visited { 
+    color: white;
+}
+#story {
+    width: 66%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-right-style: groove;
+    border-right-color: gray;
+    border-left-style: groove;
+    border-left-color: gray;
+    border-width: 20px;
+    height: 100%;
+}
+footer  {
+    width: 100%;
+    text-align: center;
+    color: darkgray;
+    font-size: 1.4em;
+    top: 94%;
+    position: fixed;
+    background-color: black;
+    height: 6%;
+}
+footer.section  {
+    font-size: 1.2em;
+    
+}
+#timeEdit   {
+    font-size: 0.8em;
+}
